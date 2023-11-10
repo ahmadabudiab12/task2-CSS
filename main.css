@@ -1,0 +1,93 @@
+/*bublic*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.cont {
+  
+  width: 70%;
+  margin: auto;
+  
+}
+
+.flex1{
+    display:flex;
+  justify-content: space-between;
+  flex-wrap:wrap;
+}
+
+
+/*navbar*/
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.66);
+  
+}
+
+.logo {
+   
+    margin-top: 6px;
+  }
+  .logo img {
+    width: 50%;
+  }
+  .navbar .list {
+    
+    margin-top: 6px;
+  }
+  
+  .list ul {
+    list-style-type: none;
+    display:flex;
+    justify-content:flex-end;
+    
+    
+  }
+  
+  .list ul li {
+    
+    margin-right: 20px;
+    text-transform: uppercase;
+  }
+  .list a {
+    text-decoration: none;
+    color: white;
+  }
+
+  /*portfolio*/
+  .flex2{
+
+    display:flex;
+    flex-wrap:wrap;
+    
+  }
+
+
+.portfolio {
+    background-color: gray;
+    text-align: center;
+  }
+  .item {
+    width: 33.33%;
+    padding:6px;
+    
+  }
+  
+  .portfolio h2 {
+    padding-top: 10px;
+  }
+  
+  .portfolio p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .portfolio img {
+    width: 100%;
+    display: block;
+  }
+
+
